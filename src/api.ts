@@ -19,7 +19,7 @@ interface RetryConfig extends InternalAxiosRequestConfig {
 }
 
 // Backend API URL
-const API_URL = 'http://localhost:3000/api/inventory';
+const API_URL = 'https://winswereldv2backend.onrender.com/api/inventory';
 
 // Create axios instance with base configuration
 const api = axios.create({
